@@ -1,0 +1,36 @@
+.navbar {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0c0c1e;
+  padding: 10px 20px;
+}
+
+.navbar h1 {
+    font-size: 28px; /* make "Portfolio" bigger */
+    font-weight: bold;
+    align-self: left;
+    color: rgb(170, 31, 31);
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: white;
+  background-color: #1a4ed8;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.nav-menu li a:hover {
+  background-color: #003cff;
+}
+
